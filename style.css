@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero{
+    background-color: #1F2937 ;
+    font-size: 18px;
+    padding: 1% 15%;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+.title-text{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    max-width: 38%;
+}
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+}
+.mainhero{
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.placeholderimage img{
+    width: 600px;
+    height: auto;
+}
+h2{
+    text-align: center;
+    margin: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.cardlist{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 8%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+    text-align: center;
+    color: #32373f;
+}
+.card img{
+    border: #3882F6 solid 5px;
+    border-radius: 10%;
+    margin-bottom: 5px;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    padding: 6% 28%;
+    display: flex;
+    flex-direction: column;
+}
+.quote-author{
+    font-weight: 900;
+    font-style:normal;
+    font-size: 32px;
+    margin-top: -32px;
+    align-self: flex-end;
+}
+.signup{
+    background-color: #3882F6;
+    margin: 5% 15%;
+    border-radius: 10px;
+    display: flex;
+    padding: 2% 10%;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup-button{
+    border: #F9FAF8 solid 2px;
+}
+h3{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 2%;
+}
